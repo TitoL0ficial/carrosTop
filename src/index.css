@@ -3,11 +3,17 @@
 :root {
     --ct-color-bg-primary: #fff;
     --ct-color-bg-secondary: #F78B00;
+    --ct-color-bg-tertiary: #00285F;
 
     --ct-color-font-primary: #00285F;
     --ct-color-font-secondary: #000;
     --ct-color-font-tertiary: #585858;
     --ct-color-font-quaternary: #fff;
+
+    --ct-color-border: #A7A7A7;
+    --ct-color-border-search-bar: #00285F;
+
+    --ct-color-placeholder: #A7A7A7;
 }
 
 * {
@@ -31,3 +37,4 @@ html, body {
     max-width: 980px;
     margin: 0 auto;
 }
+
