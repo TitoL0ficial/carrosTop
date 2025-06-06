@@ -11,10 +11,13 @@
     justify-content: center;
     margin: 40px 0;
     height: 40px;
+    min-width: 258px;
 }
 
 .ct-catalog-card-container {
-    border: 1px solid blue;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(258px , 1fr));
 }
 
 @media (min-width: 576px) {
